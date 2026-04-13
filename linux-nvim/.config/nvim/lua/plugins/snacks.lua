@@ -44,6 +44,9 @@ return {
       },
     },
     picker = {
+      layout = {
+        preset = "dropdown",
+      },
       sources = {
         files = {
           ignored = true,
