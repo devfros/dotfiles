@@ -123,9 +123,9 @@ return {
         -- rust_analyzer = { enabled = false },
 
         -- SQL
-        sqlc = {
-          enabled = true,
-        },
+        -- sqlc = {
+        --   enabled = true,
+        -- },
         tsserver = {
           enabled = false,
         },
