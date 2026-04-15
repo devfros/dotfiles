@@ -41,6 +41,7 @@ return {
     terminal = {
       win = {
         position = "float",
+        border = "rounded",
       },
     },
     picker = {
