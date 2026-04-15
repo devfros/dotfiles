@@ -40,7 +40,7 @@ return {
     },
     terminal = {
       win = {
-        position = "right",
+        position = "float",
       },
     },
     picker = {
