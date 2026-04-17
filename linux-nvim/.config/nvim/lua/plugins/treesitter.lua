@@ -7,6 +7,9 @@ return {
       "gomod",
       "gowork",
       "gosum",
+      -- Jinja
+      "jinja",
+      "jinja_inline",
       -- Rust
       "rust",
       "ron",

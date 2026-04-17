@@ -115,6 +115,9 @@ return {
           mason = true,
           enabled = true,
         },
+        jinja_lsp = {
+          enabled = true,
+        },
 
         -- RUST
         -- bacon_ls = {
