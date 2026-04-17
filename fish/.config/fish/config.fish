@@ -76,6 +76,8 @@ if status is-interactive
     # NeoVim
     abbr -a -- nv nvim
 
+    # nORM
+    abbr -a -- ng 'norm generate'
 end
 
 # Created by `pipx` on 2025-02-05 02:27:45
