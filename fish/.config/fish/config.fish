@@ -5,7 +5,7 @@ if status is-interactive
     abbr -a -- cls clear
 
     #GIT
-    abbr -a -- gs 'git status'
+    abbr -a -- gs 'git status --short'
     abbr -a -- ga 'git add .'
 
     #commits
