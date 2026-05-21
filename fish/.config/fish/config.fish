@@ -56,6 +56,7 @@ if status is-interactive
     abbr -a -- pui 'pip uninstall'
     abbr -a -- pfr 'pip freeze > requirements.txt'
     abbr -a -- pr 'python run.py'
+    abbr -a -- pt pytest
     abbr -a -- pav 'source ./.venv/bin/activate.fish'
 
     # GO
