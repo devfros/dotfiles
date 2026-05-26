@@ -100,6 +100,18 @@ function auto_venv --on-variable PWD
     end
 end
 
+function ya
+    set tmp (mktemp -t "yazi-cwd.XXXXXX")
+    yazi $argv --cwd-file="$tmp"
+
+    set cwd (cat "$tmp")
+    if test -n "$cwd"; and test "$cwd" != "$PWD"
+        cd "$cwd"
+    end
+
+    rm -f "$tmp"
+end
+
 alias tm="new_tmux"
 alias tml="tmux attach"
 alias ef="yazi"
