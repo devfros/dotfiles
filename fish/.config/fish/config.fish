@@ -116,6 +116,7 @@ alias tm="new_tmux"
 alias tml="tmux attach"
 alias ef="yazi"
 alias c='opencode'
+alias p='python'
 alias kssh="kitten ssh"
 
 export FZF_DEFAULT_OPTS="--layout=reverse"
