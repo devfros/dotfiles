@@ -67,6 +67,7 @@ if status is-interactive
     abbr -a -- dstop 'bash stop_all.sh'
     abbr -a -- dps 'docker ps -a'
     abbr -a -- dc 'docker compose'
+    abbr -a -- dcu 'docker compose up -d'
     abbr -a -- dcl 'docker compose -f docker-compose.local.yaml'
     abbr -a -- dcld 'docker compose -f ./deployment/docker-compose.local.yaml'
 
