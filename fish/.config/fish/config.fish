@@ -125,3 +125,6 @@ export FZF_DEFAULT_OPTS="--layout=reverse"
 export MANPAGER="nvim +Man!"
 
 starship init fish | source
+
+# kimi-code
+fish_add_path -g "/home/afros/.kimi-code/bin"
