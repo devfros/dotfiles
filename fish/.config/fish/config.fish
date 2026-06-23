@@ -59,6 +59,10 @@ if status is-interactive
     abbr -a -- pt pytest
     abbr -a -- pav 'source ./.venv/bin/activate.fish'
 
+    #Rust
+    abbr -a -- cr 'cargo run'
+    abbr -a -- cb 'cargo build'
+
     # GO
     abbr -a -- gr 'go run .'
 

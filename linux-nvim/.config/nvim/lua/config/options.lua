@@ -6,3 +6,7 @@ vim.g.lazyvim_python_ruff = "ruff"
 vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
 -- vim.opt.cursorline = false
 -- TokyoNight Moon
+
+vim.opt.autoread = true
+vim.opt.confirm = true
+vim.opt.updatetime = 1000

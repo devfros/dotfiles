@@ -1,6 +1,15 @@
 -- Autocmds are automatically loaded on the VeryLazy event
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 --
+-- Reload buffers when files change outside Neovim
+vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
+  callback = function()
+    if vim.o.buftype == "" then
+      vim.cmd("checktime")
+    end
+  end,
+})
+
 -- Add any additional autocmds here
 -- with `vim.api.nvim_create_autocmd`
 --
