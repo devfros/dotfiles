@@ -84,6 +84,9 @@ if status is-interactive
 
     # nORM
     abbr -a -- ng 'norm generate'
+
+    # AI
+    abbr -a -- csr cursor-agent
 end
 
 # Created by `pipx` on 2025-02-05 02:27:45
