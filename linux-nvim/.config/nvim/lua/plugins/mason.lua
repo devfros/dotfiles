@@ -6,7 +6,6 @@ return {
       "gofumpt",
       "gomodifytags",
       "impl",
-      "golangci-lint",
       "delve",
     },
   },
