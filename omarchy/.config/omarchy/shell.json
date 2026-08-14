@@ -1,10 +1,16 @@
 {
   "bar": {
-    "centerAnchor": "omarchy.clock",
+    "centerAnchor": "",
     "layout": {
       "center": [
         {
-          "id": "omarchy.indicators"
+          "id": "afros.workspaces"
+        }
+      ],
+      "left": [
+        {
+          "id": "logo",
+          "type": "qml"
         },
         {
           "id": "omarchy.clock",
@@ -21,16 +27,10 @@
           "id": "omarchy.weather"
         },
         {
-          "id": "omarchy.system-update"
-        }
-      ],
-      "left": [
-        {
-          "id": "logo",
-          "type": "qml"
+          "id": "omarchy.indicators"
         },
         {
-          "id": "afros.workspaces"
+          "id": "omarchy.system-update"
         }
       ],
       "right": [
