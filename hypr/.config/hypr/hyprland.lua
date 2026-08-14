@@ -26,4 +26,5 @@ require("hypr.autostart")
 require("default.hypr.toggles")
 
 -- Add any other personal Hyprland configuration below.
--- o.window("qemu", { workspace = "5" })
+o.window("(chromium|google-chrome)", { workspace = "9" })
+o.window("org.telegram.desktop", { workspace = "7" })
