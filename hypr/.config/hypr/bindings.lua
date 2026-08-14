@@ -27,7 +27,7 @@
 o.bind("SUPER + I", "Toggle dictation", "voxtype record toggle")
 
 -- Telegram
-o.bind("SUPER + SHIFT + T", "Telegram", { launch = "telegram-desktop" })
+o.bind("SUPER + SHIFT + T", "Telegram", { launch = "Telegram" })
 
 -- Logitech MX Keys examples:
 -- o.bind("SUPER + SHIFT + S", nil, "omarchy-capture-screenshot")
