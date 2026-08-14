@@ -5,6 +5,9 @@
       "center": [
         {
           "id": "afros.workspaces"
+        },
+        {
+          "id": "omarchy.spacer"
         }
       ],
       "left": [
@@ -64,6 +67,10 @@
     "lock": 300,
     "screensaver": 150
   },
-  "plugins": [],
+  "plugins": [
+    {
+      "id": "io.github.dkgamer02ai.lock"
+    }
+  ],
   "version": 1
 }
