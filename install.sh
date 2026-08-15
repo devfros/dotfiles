@@ -95,6 +95,22 @@ stow voxtype
 stow python
 stow zshrc
 
+info "installing herdr vim/herdr navigation plugin"
+if have herdr; then
+  if ! have jq; then
+    if have pacman; then
+      warn "jq is not installed. Installing with pacman (may prompt for sudo)..."
+      sudo pacman -S --noconfirm --needed jq || warn "failed to install jq; herdr nav will work without vim-awareness"
+    else
+      warn "jq is not installed and pacman is unavailable. Install jq for vim-aware herdr navigation."
+    fi
+  fi
+  herdr plugin install paulbkim-dev/vim-herdr-navigation --yes \
+    || warn "herdr plugin install failed; run: herdr plugin install paulbkim-dev/vim-herdr-navigation --yes"
+else
+  warn "herdr not installed; skip vim-herdr-navigation plugin install"
+fi
+
 info "downloading voxtype multilingual Whisper model (English + Russian)"
 if have voxtype; then
   voxtype setup --download --model base || warn "voxtype model download failed; run: voxtype setup --download --model base"
