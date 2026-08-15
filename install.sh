@@ -76,6 +76,7 @@ reset_path "$HOME/.config/hypr"
 reset_path "$HOME/.config/omarchy"
 reset_path "$HOME/.config/voxtype"
 reset_path "$HOME/.config/tmux/tmux.conf"
+reset_path "$HOME/.config/herdr/config.toml"
 reset_path "$HOME/.tmux.conf"
 reset_path "$HOME/.zshrc"
 
@@ -85,6 +86,7 @@ stow ghostty
 stow fish
 stow starship
 stow tmux
+stow herdr
 stow yazi
 stow linux-nvim
 stow hypr
