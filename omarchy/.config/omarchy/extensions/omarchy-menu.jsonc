@@ -1,0 +1,4 @@
+{
+  // Adds Style -> Lock Screen to the Omarchy menu.
+  "style.lockscreen": {"icon":"󰌾","label":"Lock Screen","aliases":["lockscreen","lock-screen"],"description":"Preview and choose a lock screen design","action":"omarchy-shell lock explore"}
+}

@@ -64,7 +64,7 @@
       ]
     },
     "position": "top",
-    "transparent": true
+    "transparent": false
   },
   "idle": {
     "lock": 300,
@@ -72,8 +72,15 @@
   },
   "plugins": [
     {
-      "id": "io.github.dkgamer02ai.lock"
+      "id": "io.github.sirjul1337.lock-explorer",
+      "design": "system"
     }
   ],
-  "version": 1
+  "version": 1,
+  "disabledPlugins": [
+    "omarchy.lock"
+  ],
+  "cloneSourceRestores": [
+    "io.github.sirjul1337.lock-explorer"
+  ]
 }
