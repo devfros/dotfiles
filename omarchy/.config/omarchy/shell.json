@@ -8,6 +8,9 @@
         },
         {
           "id": "omarchy.spacer"
+        },
+        {
+          "id": "mwikala.world-time"
         }
       ],
       "left": [
@@ -39,6 +42,9 @@
       "right": [
         {
           "id": "omarchy.tray"
+        },
+        {
+          "id": "io.github.keithnyc.omanetwatch"
         },
         {
           "id": "io.github.fabean.herdr"
@@ -74,6 +80,12 @@
     {
       "id": "io.github.sirjul1337.lock-explorer",
       "design": "system"
+    },
+    {
+      "id": "b.blink"
+    },
+    {
+      "id": "b.omashot"
     }
   ],
   "version": 1,
