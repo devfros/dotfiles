@@ -8,9 +8,6 @@
         },
         {
           "id": "omarchy.spacer"
-        },
-        {
-          "id": "mwikala.world-time"
         }
       ],
       "left": [
@@ -40,6 +37,9 @@
         }
       ],
       "right": [
+        {
+          "id": "mwikala.world-time"
+        },
         {
           "id": "omarchy.tray"
         },
